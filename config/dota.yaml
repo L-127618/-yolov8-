@@ -1,0 +1,24 @@
+# DOTA数据集配置文件 (YOLOv8-OBB)
+# 路径基于项目根目录 satellite_detection/
+path: data/processed            # 预处理后的数据集根目录
+train: images/train
+val: images/val
+test: images/test
+
+nc: 15
+names:
+  0: plane
+  1: ship
+  2: storage-tank
+  3: baseball-diamond
+  4: tennis-court
+  5: basketball-court
+  6: ground-track-field
+  7: harbor
+  8: bridge
+  9: large-vehicle
+  10: small-vehicle
+  11: helicopter
+  12: roundabout
+  13: soccer-ball-field
+  14: swimming-pool
